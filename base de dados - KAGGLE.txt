@@ -1,0 +1,6 @@
+base de dados - KAGGLE:
+
+
+https://www.kaggle.com/code/mos3santos/spotify-top-songs
+
+spotify-top-songs
