@@ -1,33 +1,68 @@
-Spotify Analytics: Pipeline de Dados End-to-End
-Este projeto demonstra um ciclo completo de análise de dados, desde o tratamento de uma base bruta utilizando Python até a criação de um Dashboard interativo no Power BI.
+# Spotify Insights Dashboard
 
-🚀 Objetivo
-Analisar o desempenho das músicas mais ouvidas do Spotify, transformando dados brutos em indicadores de performance (KPIs) e insights sobre a participação de cada artista no mercado global.
+## Visão Geral
 
-📂 Fonte dos Dados
-Os dados utilizados neste projeto foram extraídos do Kaggle, através do dataset público:
+Projeto de análise de dados de ponta a ponta utilizando dados do Spotify obtidos no Kaggle para identificar artistas e músicas mais reproduzidos, tendências de consumo e rankings de popularidade.
 
-Spotify Top Songs - Kaggle
+## Objetivo
 
-🛠️ Tecnologias Utilizadas
-Python (Pandas): Limpeza, tratamento e normalização dos dados.
+Transformar uma base bruta em insights visuais por meio de limpeza de dados, tratamento estatístico e dashboard interativo.
 
-Power BI: Modelagem de dados, cálculos DAX e visualização.
+## Ferramentas Utilizadas
 
-Jupyter Notebook: Documentação de toda a análise exploratória.
+* Python
+* Pandas
+* Jupyter Notebook
+* Power BI
+* Power Query
+* DAX
 
-📁 Estrutura do Projeto
-O repositório contém os seguintes ficheiros principais:
+## Etapas do Projeto
 
-Caderno - Limpeza de dados.html: Documentação do processo de ETL (Extração, Transformação e Carga). Inclui a separação de colunas, tratamento de valores nulos e conversão de tipos de dados.
+### 1. Tratamento de Dados com Python
 
-PROJETO - MUSICAS MAIS ESCUTADAS - SPOTIFY.pbix: Ficheiro do Power BI com o dashboard finalizado e modelagem de dados aplicada.
+* Importação da base CSV (Kaggle)
+* Análise exploratória inicial
+* Separação de colunas de artista e música
+* Padronização textual
+* Conversão de tipos numéricos
+* Tratamento de valores nulos
+* Exportação da base limpa para Excel
 
-Dados_limpos.xlsx: A base de dados estruturada gerada pelo script Python.
+### 2. Modelagem e BI
 
-📈 Destaques do Dashboard
-Métricas Dinâmicas: Cálculo de participação percentual (%) do artista selecionado em relação ao total global da base.
+* Importação no Power BI
+* Criação de métricas e KPIs
+* Ranking de artistas e músicas
+* Indicadores de streams totais e diários
+* Segmentações interativas
 
-Análise de Top 10: Comparação visual automática entre os líderes de streams e o artista filtrado.
+## Principais Insights
 
-Design Moderno: Interface em Dark Mode inspirada no aplicativo oficial, com foco em hierarquia visual e clareza de KPIs.
+* Artistas com maior volume de streams
+* Músicas mais reproduzidas da base
+* Comparativo entre streams totais e diários
+* Tendências de popularidade musical
+
+## Resultados
+
+Dashboard interativo com foco analítico e visual, permitindo rápida tomada de decisão e exploração dos dados.
+
+## Base de Dados
+
+Fonte: Kaggle - Spotify Top Songs
+
+## Arquivos do Projeto
+
+* Notebook Python de tratamento de dados
+* Base tratada em Excel
+* Dashboard Power BI (.pbix)
+
+## Como Executar
+
+1. Execute o notebook Python para gerar a base tratada.
+2. Abra o arquivo `.pbix` no Power BI Desktop.
+3. Explore os indicadores e filtros.
+
+
+
